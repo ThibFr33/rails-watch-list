@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Ajoutez une liste</h2>
+  <div class="card col-6 ">
+    <%= simple_form_for @list do |f| %>
+      <%= f.input :name %>
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+</div>
